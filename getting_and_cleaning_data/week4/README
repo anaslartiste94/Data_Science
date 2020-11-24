@@ -1,0 +1,12 @@
+This README explains the steps done in the script run_analysis.R
+
+
+1) get the X_train, y_train and subject_train data
+2) get the X_test, y_test and subject_test data
+3) concatenate column-wise X_train, y_train and subject_train => train
+4) concatenate column-wise X_test, y_test and subject_test => test
+5) concatenate row-wise the tables train and test
+6) rename the variables
+7) extract only the variables that contains mean or std in them and keep activity_labels and subject as well
+8) change numeric labels into character labels
+9) summerize all variable using mean function
